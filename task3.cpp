@@ -19,7 +19,6 @@ void Analyzer(std::string s, std::regex pattern)
 int main(int argc, char** argv)
 {
 	std::regex pattern1(R"(^[\s?\w*\.*\-*\_*\+*\'*\%*]{1,64}\@([A-Za-z0-9-]+\.[A-Za-z0-9-]+)$)");
-	std::regex pattern2(R"(\@[A-Za-z0-9-]+\.[A-Za-z0-9-]+$)");
 	std::vector<std::string> vec_data;
 	vec_data.push_back("Maslennikov.DV@phystech.edu"); // TRUE
 	vec_data.push_back("this_is_not_email"); // FALSE
