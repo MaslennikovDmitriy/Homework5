@@ -32,7 +32,7 @@ int main(int argc, char** argv)
 	vec_data.push_back("@phystech.edu"); // FALSE
 	for (size_t i = 0; i < vec_data.size(); i++)
 	{
-		Analyzer(vec_data[i], pattern1); // âûâîä ïîäõîäÿùèõ email
+		Analyzer(vec_data[i], pattern1); // Ð²Ñ‹Ð²Ð¾Ð´ Ð¿Ð¾Ð´Ñ…Ð¾Ð´ÑÑ‰Ð¸Ñ… email
 	}
 	system("pause");
 	return EXIT_SUCCESS;
